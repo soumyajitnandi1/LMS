@@ -1,0 +1,79 @@
+.mid {
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: row-reverse;
+	width: 95vw;
+	margin: 10% 0 10% 2%;
+}
+
+.req {
+	/* right: 0; */
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.req .btn-primary {
+	color: #fff;
+	/* background-color: #0d6efd; */
+	background: linear-gradient(to right, #4e4376, #2b5876);
+	border-color: var(--light-blue);
+}
+
+.req td,
+.req th {
+	padding: 8px;
+}
+
+.thd{
+	background: linear-gradient(to right, #4e4376, #2b5876);
+}
+
+.req th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: white;
+}
+
+.modal .header {
+	background: linear-gradient(to right, #4e4376, #2b5876);
+}
+
+.modal .header h5{
+	color : white;
+}
+
+.modal-body h5 b{
+	color : var(--dark-blue);
+}
+
+/* .modal .footer {
+	justify-content: space-between;
+}
+
+.modal .header {
+	background: linear-gradient(to right, #4e4376, #2b5876);
+	text-align: center;
+	display: block;
+}
+.modal h5 u {
+	color: var(--dark-blue);
+}
+.modal-body h5 {
+	display: flex;
+	justify-content: space-between;
+} 
+.mdc {
+	width: 120%;
+}
+
+*/
+
+.flex {
+	display: flex;
+}
+.cntnt-cntr {
+	justify-content: center;
+}
+
+.modal .mdl {
+}

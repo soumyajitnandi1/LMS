@@ -1,0 +1,67 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+--first-color:indianred;
+--light-blue:#ADC5D9;
+--dark-blue:#1D4259
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+ 
+ .item{
+     color: white !important;
+ }
+
+
+ .tag{
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    font-weight: bold;
+ }
+
+.card {
+    transition: transform 0.2s ease;
+    box-shadow: 2px 4px 6px 2px rgba(22, 22, 26, 0.18);
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 40 px 25px;
+    border-radius: 5px;
+ 
+}
+
+.card-img-div{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.card-img{
+    width: 70%;
+    margin-top: 15px;
+}
+
+.card .btn{
+    margin-top: 25px;
+    background-color: var(--dark-blue);
+}
+
+.card .btn:hover{
+    background-color: var(--light-blue);
+}
+.card:hover {
+    transform: scale(1.2);
+    z-index: 5;
+}
+
+@media (max-width:900px) {
+	.navItem{
+		padding-left: 0 !important;
+	}
+}

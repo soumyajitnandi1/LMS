@@ -1,0 +1,16 @@
+:root {
+	--light-blue: #adc5d9;
+	--dark-blue: #1d4259;
+}
+
+.ftr .upr {
+	background: linear-gradient(to right, #4e4376, #2b5876);
+}
+.ftr .tt {
+	color: var(--light-blue);
+}
+
+.ftr .ttxt {
+	color: var(--light-blue);
+	text-decoration: none;
+}

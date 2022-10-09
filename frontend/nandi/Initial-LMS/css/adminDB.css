@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    /* overflow: hidden; */
+}
+
+.navbar {
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to left, #4e4376, #2b5876);
+}
+
+#title {
+    height: 60px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.logout a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.logout a:hover {
+    color: #324122
+}
+
+.logout span {
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    background-color: #f1f1f1;
+    background: #2b5876;
+    /* background: -webkit-linear-gradient(to right, #4e4376, #2b5876); */
+    /* background: linear-gradient(to right, #4e4376, #2b5876); */
+}
+
+.sidebar-brand {
+    height: 80px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    font-size: 20px;
+    width: 100%;
+}
+
+.sidebar a {
+    display: block;
+    color: #fff;
+    padding: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sidebar a i {
+    margin-right: 20px;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.logout-side {
+    display: none;
+}
+
+div.content {
+    width: 100%;
+    padding: 1px 16px;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.content {
+    width: 500px;
+}
+
+.content table {
+    height: 200px;
+}
+
+.mid .lbl {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.thd {
+    background: linear-gradient(to left, #4e4376, #2b5876);
+    color: #fff;
+}
+
+.sort form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sort form {
+    width: 50%;
+}
+
+.sort form select {
+    width: 25%;
+}
+
+.sort form button {
+    font-size: 20px;
+    background: linear-gradient(to left, #4e4376, #2b5876);
+    color: #fff;
+}
+
+
+/* @media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {
+        float: left;
+    }
+    .sidebar-brand {
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 700px) {
+    .main {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: auto;
+    }
+    .logout {
+        display: none;
+    }
+    .logout-side {
+        display: block;
+    }
+    .sidebar a {
+        text-align: center;
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    #nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body {
+        overflow: auto;
+    }
+}
